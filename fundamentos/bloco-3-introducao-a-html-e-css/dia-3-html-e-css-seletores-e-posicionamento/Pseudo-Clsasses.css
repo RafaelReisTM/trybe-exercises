@@ -1,0 +1,25 @@
+div:hover {
+  border: 3px solid black;
+}
+div:nth-of-type(1) {
+  color: #A288E3;
+}
+div:nth-of-type(2) {
+  color: #BBD5ED;
+}
+div:nth-of-type(3) {
+  color: #CCFFCB;
+  font-size: 20px;
+}
+div:nth-of-type(4) {
+  color:  #38023B;
+}
+div:nth-of-type(5) {
+  color:  #CEFDFF;
+}
+h3:hover {
+  background-color: #6D458F;
+}
+div:nth-child(2n+1) {
+  font-style: italic;
+}

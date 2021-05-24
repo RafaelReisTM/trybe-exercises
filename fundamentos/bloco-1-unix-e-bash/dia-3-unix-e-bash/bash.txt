@@ -1,0 +1,4 @@
+cd
+grep
+cat
+find
