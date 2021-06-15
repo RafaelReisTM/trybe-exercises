@@ -1,0 +1,48 @@
+* {
+  margin: 10px;
+}
+
+body {
+  font-size: 1.5em;
+}
+
+h1 {
+  font-size: 1.5em;
+}
+
+h2 {
+  font-size: 1.2em;
+}
+
+img {
+  max-width: 100%;
+}
+
+figure {
+  margin-bottom: 50px;
+}
+
+@media screen and (min-width: 600px) {
+  body {
+    background-color: lightcyan;
+    font-size: 2em;
+  }
+
+  div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  } 
+
+  figure {
+    max-width: 45%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-color: lightpink;
+    max-width: 80%;
+    margin: 5%;
+  }
+}
